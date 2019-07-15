@@ -22,6 +22,12 @@
 </head>
 <body>
 
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+
 <div class="container gallery-container">
     <h1>Bourbon Asunción Convention Hotel</h1>
 
@@ -38,6 +44,8 @@
         2 de la Argentina y 2 del Uruguay.
     </p>
     <h3><center>Av. Sudamericana, 3104 · (021) 659 1000</center></h3>
+
+    <a href="#" onclick="cordova.InAppBrowser.open('http://maps.google.com/?q=-25.261969,-57.515841', '_system'); return false;">Ver Mapa</a>
     
     
     <div class="tz-gallery">
