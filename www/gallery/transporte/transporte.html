@@ -26,12 +26,15 @@
 
 </head>
 <body>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
 
     <!-- Image and text -->
 <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="https://dcolman.com">
-          <i class="fab fa-dyalog" width="30" height="30" class="d-inline-block align-top" alt=""></i>
-        </a>
+
       </nav>
 
 
@@ -54,7 +57,7 @@
                     <!--<a class="lightbox" href="../images/Certificados/diploma-marca-personal.png">
                         <img src="../images/Certificados/diploma-marca-personal.png" alt="Coast">
                     </a>-->
-                    <div class="caption">
+                    <div class="caption" href="#" onclick="cordova.InAppBrowser.open('https://www.google.com/maps/place/Bourbon+Asunci%C3%B3n+Convention+Hotel/@-25.261969,-57.515841,15z/data=!4m2!3m1!1s0x0:0xdb439f12d2d94b23?sa=X&ved=2ahUKEwjE3IiYpLfjAhWxxFkKHRgyBpgQ_BIwC3oECBAQCA', '_system'); return false;" target="_self">
                         <h3>UBER</h3>
                         <p>APP Movil Internacional de Transporte</p>
                     </div>
