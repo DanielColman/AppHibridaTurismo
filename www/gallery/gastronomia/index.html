@@ -2,11 +2,22 @@
 <html>
 <head>
 
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins"rel="stylesheet">
+    
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Freebie: 4 Bootstrap Gallery Templates</title>
+    <title>Gastronomia</title>
 
     <link rel="stylesheet" href="../../assets/boots/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
@@ -15,34 +26,117 @@
 
 
 </head>
+
 <body>
+    <nav class="navbar navbar-dark bg-dark"></nav>
+    <div class="container gallery-container">
+ 
+  
+   <p class="page-description text-center" style="color:#CD5C5C"><font size="6">Gastronomia Local</font></p>
+    
+   <style>
+        body {
+            font-family: 'Poppins', serif;
+        }
+    </style>
 
-<div class="container gallery-container">
-    <h1>...<h1>
-    <h1>GASTRONOMIA</h1>
-
-    <p class="page-description text-center">LOCALES GASTRONOMICOS (ASUNCION - GRAN ASUNCION)</p>
+    <script type="text/javascript" src="../../cordova.js"></script>
+    <script type="text/javascript" src="../../js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+    
+    <p class="page-description text-center">Restaurantes en Asunción & Gran Asunción</p>
     
     <div class="tz-gallery">
 
         <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="../images/resto/sanroque.jpg">
-                    <img src="../images/resto/sanroque.jpg" alt="Park">
-                </a>
-                <br>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="../images/resto/rentsuite.jpg">
-                    <img src="../images/resto/rentsuite.jpg" alt="Bridge">
-                </a>
-                <br>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <a class="lightbox" href="../images/resto/rentsuites.jpg">
-                    <img src="../images/resto/rentsuites.jpg" alt="Tunnel">
-                </a>
-                <br>
+
+            <div class="text-center"> 
+
+                <div class="container">               
+                    <div class="text-center">
+                        <span class="badge badge-pill badge-dark">Restaurante Bar San Roque</span>
+                    </div>
+                </div>
+                <br><br>
+
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="../images/resto/sanroque.jpg">
+                        <img src="../images/resto/sanroque.jpg" alt="Park">
+                    </a>
+                    <br>
+                </div>
+
+                <a class="btn btn-danger btn-sm" href="#" onclick="cordova.InAppBrowser.open('https://www.google.com/maps/place/San+Roque/@-25.2851913,-57.6302034,17z/data=!3m1!4b1!4m5!3m4!1s0x945da7ef1f23f431:0x454b6a24a0e1608a!8m2!3d-25.2851962!4d-57.6280147', '_blank', 'location=no'); return false;" target="_self">VER UBICACION</a>
+                
+                <div class="container">               
+                        <div class="text-center">
+                            <br>
+                            <span class="badge badge-pill badge-dark">Restaurante Tierra Colorada</span>
+                        </div>
+                    </div>
+                <br><br>
+
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="../images/resto/tierracolorada.jpg">
+                        <img src="../images/resto/tierracolorada.jpg" alt="Park">
+                    </a>
+                    <br>
+                </div>
+
+                <a class="btn btn-danger btn-sm" href="#" onclick="cordova.InAppBrowser.open('https://www.google.com/maps/place/Tierra+Colorada+Gastro/@-25.2732977,-57.5598558,17z/data=!3m1!4b1!4m5!3m4!1s0x945da606930eff1d:0xcbde9650dc2c96e4!8m2!3d-25.2733026!4d-57.5576671', '_blank', 'location=no'); return false;" target="_self">VER UBICACION</a>
+
+                <div class="container">               
+                        <div class="text-center">
+                            <br>
+                            <span class="badge badge-pill badge-dark">Restaurante Rent Suites</span>
+                        </div>
+                    </div>
+                <br><br>
+
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="../images/resto/rentsuite.jpg">
+                        <img src="../images/resto/rentsuite.jpg" alt="Bridge">
+                    </a>
+                    <br>
+                </div>
+
+                <a class="btn btn-danger btn-sm" href="#" onclick="cordova.InAppBrowser.open('https://www.google.com/maps/place/Asuncion+Rent+Suites+Santa+Teresa/@-25.2847533,-57.5637195,17z/data=!3m1!4b1!4m5!3m4!1s0x945da8a91c5b96f7:0x5d9127404baf346!8m2!3d-25.2847582!4d-57.5615308', '_blank', 'location=no'); return false;" target="_self">VER UBICACION</a>
+
+                <div class="container">               
+                        <div class="text-center">
+                            <br>
+                            <span class="badge badge-pill badge-dark">Restaurante Galpón Criollo</span>
+                        </div>
+                    </div>
+                <br><br>
+
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="../images/resto/GalponCriollo.jpg">
+                        <img src="../images/resto/GalponCriollo.jpg" alt="Bridge">
+                    </a>
+                    <br>
+                </div>
+
+                <a class="btn btn-danger btn-sm" href="#" onclick="cordova.InAppBrowser.open('https://www.google.com/maps/place/Galpon+criollo/@-25.3068452,-57.5859645,17z/data=!3m1!4b1!4m5!3m4!1s0x945da89323722ec5:0xe5fa5cab220ce795!8m2!3d-25.3068501!4d-57.5837758', '_blank', 'location=no'); return false;" target="_self">VER UBICACION</a>
+
+                <div class="container">               
+                        <div class="text-center">
+                            <br>
+                            <span class="badge badge-pill badge-dark">Restaurante La Cabrera</span>
+                        </div>
+                    </div>
+                <br><br>
+
+                <a class="btn btn-danger btn-sm" href="#" onclick="cordova.InAppBrowser.open('https://www.google.com/maps/place/La+Cabrera/@-25.2869611,-57.5591597,17z/data=!3m1!4b1!4m5!3m4!1s0x945da8ac430c642f:0x827e2ebe33a97bc3!8m2!3d-25.286966!4d-57.556971', '_blank', 'location=no'); return false;" target="_self">VER UBICACION</a>
+
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="../images/resto/lacabrera.png">
+                        <img src="../images/resto/lacabrera.png" alt="Bridge">
+                    </a>
+                    <br>
+                </div>
             </div>
         </div>
 
